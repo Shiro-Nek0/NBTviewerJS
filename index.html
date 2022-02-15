@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html lang="en">
+    <title>NBT PARSER</title>
+
+    <head>
+        <link rel="icon" type="image/png" href="assets/favicon.ico"/>
+    </head>
+
+    <body style="background-color:#4d4f52;">
+        <label for="openfile">Select a file:</label>
+        <input type="file" id="openfile" accept=".nbt" name="Open .NBT">
+
+        <input type="button" id="download" value="Download ALL">
+
+        <input type="button" id="download_selected" value="Download Selected (To be implemented)">
+
+        <input type="button" id="augment" value="+">
+        <input type="button" id="reduce" value="-">
+
+        <div id="loading" style="display: none;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <img src="assets/loading.svg" style="width: 500px;">
+        </div>
+
+        <div id="errors"></div>
+        <div id="main" style="width:100%;height:100%;">
+        </div>
+    </body>
+
+</html>
+
+<script src="./script.js"></script>
+
+
+(download individual pics)
+checkboxes or buttons for each image
+
+make each image a div
